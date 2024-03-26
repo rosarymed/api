@@ -11,7 +11,7 @@ const {
   Messages,
 } = require("../errors/statusCode");
 const jwt = require("jsonwebtoken");
-const query = new Query(PostCode);
+// const query = new Query(PostCode);
 const secret = process.env.SECRET;
 const bcrypt = require("bcryptjs");
 const { email1, email2 } = require("../utility/constants");
